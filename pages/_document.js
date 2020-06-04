@@ -1,5 +1,4 @@
-import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import GlobalStyles from '../styles/global'
 
@@ -15,7 +14,7 @@ export default class MyDocument extends Document {
     }
 
     render = () => (
-        <html lang="en">
+        <Html lang="en">
             <Head>
                 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
                 {/* <link rel="icon" href="/static/favicon.ico" /> */}
@@ -29,6 +28,6 @@ export default class MyDocument extends Document {
                 <Main />
                 <NextScript />
             </body>
-        </html>
+        </Html>
     )
 }

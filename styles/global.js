@@ -7,7 +7,7 @@ export default () => (
             color: #444;
             margin: 0;
             font-size: 14px;
-            background-color: ${Theme.colors.white};
+            background-color: ${Theme.colors.offWhite};
             font-family: ${Theme.fonts.sans}
         }
         * {
