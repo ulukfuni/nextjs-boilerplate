@@ -18,7 +18,6 @@ export default class MyDocument extends Document {
             <Head>
                 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
                 {/* <link rel="icon" href="/static/favicon.ico" /> */}
-                <meta key="viewport" name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width" />
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500" rel="stylesheet" />
                 <GlobalStyles />

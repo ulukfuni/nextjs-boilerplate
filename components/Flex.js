@@ -7,9 +7,10 @@ const Flex = styled(Base)`
     ${props => (props.center ? `justify-content: center; align-items: center;` : null)}
     ${props => (props.border ? `border: ${props.border};` : null)}
 `
-
-export default props => (
+const FlexWithChildren = (props) => (
     <Flex {...props}>
         {props.children}
     </Flex>
 )
+
+export default FlexWithChildren
